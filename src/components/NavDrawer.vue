@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer color="#f26400" dark :value="drawer" absolute temporary>
+  <v-navigation-drawer app color="#f26400" dark :value="drawer" absolute temporary>
     <!--  -->
     <v-list-item>
       <v-list-item-avatar >

@@ -1,5 +1,5 @@
 <template>
-  <v-card outlined  id="course-card">
+  <v-card elevation="8" id="course-card">
     <v-col style="padding: 0 12px 0 12px;">
       <v-row>
         <v-col id="col1" :style="date_color" cols="3">
@@ -25,8 +25,8 @@
             <v-row>
               <!-- <v-col> -->
               <span id="c-name" class="col-12 py-0 text-truncate subtitle-2">{{course.course_name}}</span>
-              <span id="c-name" class="col-12 py-0 text-truncate caption">{{course.course_location}}</span>
-              <span id="c-name" class="col-12 py-0 text-truncate caption">{{date_full(course.course_time)}}</span>
+              <span id="c-name" class="col-12 py-0 text-truncate caption grey--text">{{course.course_location}}</span>
+              <span id="c-name" class="col-12 py-0 text-truncate caption grey--text">{{date_full(course.course_time)}}</span>
 
               <!-- </v-col> -->
               <!-- </v-row>

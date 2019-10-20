@@ -1,7 +1,9 @@
 <template>
   <div>
       <v-row>
-          <v-col cols="12" sm="12" md="6" lg="4" xl="3" v-for="item in courses" :key="item.index">
+          <v-col cols="12" sm="12" md="6" lg="4" xl="3" 
+          style="padding:0 10px 10px 10px"
+          v-for="item in courses" :key="item.index">
               <CourseCard :course="item" />
           </v-col>
       </v-row>
@@ -18,6 +20,19 @@ export default {
         return{
 courses: [
         {
+            "course_id": "BDP09251630",
+            "course_name": "Big Data Processing",
+            "course_time": "2019-09-25 12:30:00",
+            "course_date": "25 09, 2019",
+            "course_location": "12.08.04",
+            "course_point": "7",
+            "course_duration": "2.0",
+            "course_month": "Sep",
+            "course_day": "25",
+            "course_desc": "Course for hadoop and related programming techniques",
+            "src":"https://images.unsplash.com/photo-1569830904560-2afd7062213c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        },
+         {
             "course_id": "BDP09251630",
             "course_name": "Big Data Processing",
             "course_time": "2019-09-25 12:30:00",
@@ -60,6 +75,19 @@ courses: [
             "course_id": "NP09181230",
             "course_name": "Network Programming",
             "course_time": "2019-09-18 02:30:00",
+            "course_date": "18 09, 2019",
+            "course_location": "56.01.01",
+            "course_point": "5",
+            "course_duration": "2.0",
+            "course_month": "Sep",
+            "course_day": "18",
+            "course_desc": "No Description",
+            "src":"https://images.unsplash.com/photo-1565793141907-f29cf7ec4f5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=931&q=80"
+        },
+        {
+            "course_id": "NP09181230",
+            "course_name": "Network Programming",
+            "course_time": "2019-01-18 02:30:00",
             "course_date": "18 09, 2019",
             "course_location": "56.01.01",
             "course_point": "5",
